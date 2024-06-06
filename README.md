@@ -84,12 +84,15 @@ order by sum(transactions.profit_margin)/sum(transactions.sales_amount)*100 desc
 # Data Analysis using Tableau
 
 **Creating Star Schema**
+
 <img width="1440" alt="Schema" src="https://github.com/jatinsatija/Sales_Insights_Data_Analysis_using_Tableau_and_SQL/assets/44506321/779f9509-13a0-4215-b847-d560597182ae">
 
 **Sales and Revenue Analysis Dashboard**
+
 <img width="1440" alt="Sales_and_Revenue_Dashboard" src="https://github.com/jatinsatija/Sales_Insights_Data_Analysis_using_Tableau_and_SQL/assets/44506321/dce51450-1111-4f14-adf5-83319e4899b4">
 
 **Profit Analysis Dashboard**
+
 <img width="1440" alt="Profit_Analysis_Dashboard" src="https://github.com/jatinsatija/Sales_Insights_Data_Analysis_using_Tableau_and_SQL/assets/44506321/2ff26473-5c6d-4787-adcb-8b9d86a16cd3">
 
 
