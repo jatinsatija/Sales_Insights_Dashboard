@@ -29,8 +29,15 @@ To reduce the amount of time spent manually gathering data by unlocking sales in
 
 **Stakeholders involved:**
 
-Sales Director,
-I.T. Team,
-Customer Service Team,
-Data & Analytics Team.
+- Sales Director
+- I.T. Team
+- Customer Service Team
+- Data & Analytics Team
+
+# Data Analysis Approach
+<img width="635" alt="image" src="https://github.com/jatinsatija/Sales_Insights_Data_Analysis_using_Tableau_and_SQL/assets/44506321/40384a8e-953b-484f-96ab-0a1cb0ccc503">
+
+
+
+
 
