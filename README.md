@@ -40,8 +40,8 @@ To reduce the amount of time spent manually gathering data by unlocking sales in
 # Exploratory Analysis Using SQL
 
 1. Show Customer wise total Revenue and Profit
-   
-```SELECT distinct customers.custmer_name, sum(transactions.profit_margin) as "Total Profit Generated", sum(transactions.sales_amount) as "Total Revenue Generate"
+``` sql   
+SELECT distinct customers.custmer_name, sum(transactions.profit_margin) as "Total Profit Generated", sum(transactions.sales_amount) as "Total Revenue Generate"
 from customers INNER JOIN transactions on customers.customer_code = transactions.customer_code
 INNER JOIN date on transactions.order_date = date.date
 group by customers.custmer_name; 
@@ -79,7 +79,7 @@ group by date.year, date.month_name;
 SELECT markets.markets_name, sum(transactions.profit_margin)/sum(transactions.sales_amount)*100 as "Total Profit Margin %"
 from transactions INNER JOIN markets ON markets.markets_code = transactions.market_code
 group by markets.markets_name
-order by sum(transactions.profit_margin)/sum(transactions.sales_amount)*100 desc;```
+order by sum(transactions.profit_margin)/sum(transactions.sales_amount)*100 desc; 
 
 
 
